@@ -1,0 +1,17 @@
+<ion-content padding id="wrapperC">
+  	<section id="rangeSection">
+  		<button id={{whiteScreen}} (click)="turnOffTwoSideFlash()">{{screenFlashTitle}}</button>
+	  	<ion-range min="0" max="15" [(ngModel)]="time" pin="true" (ionChange)="prepareForFlashing($event)" debounce="500">
+			<ion-icon range-left small name="flash"></ion-icon>
+			<ion-icon range-right name="flash"></ion-icon>
+		</ion-range>
+	</section>
+	<section id="btnSection">
+		<img src="assets/img/flashOn.png" (click)="turnOn()" *ngIf="visible">
+		<img src="assets/img/flashOff.png" (click)="turnOff()" *ngIf="!visible">
+	</section>
+	<button id={{sosBtnId}} (click)="preapreSos()">SoS</button>
+	<button id="settingBtn" (click)="goTosettings()"><ion-icon name="settings" id="settingsIcon"></ion-icon></button>
+	<button id="screenFlashBtn" (click)="turnOnTwoSideFlash()"><ion-icon name="bulb"></ion-icon>
+	</button>
+</ion-content>

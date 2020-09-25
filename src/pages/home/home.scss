@@ -1,0 +1,88 @@
+page-home {
+	#timeInNum{
+	    background: blue;
+	    height: 30px;
+	    width: 38px;
+	    border-radius: 50px;
+	    font-size: 25px;
+	    color: #fff;
+	}
+	#sosBtn{
+	    color: red;
+	    font-size: 30px;
+	    border: 1px solid firebrick;
+	    width: 85px;
+	    border-radius: 50px;
+	    height: 85px;
+	    background: transparent;
+	    position: absolute;
+	    bottom: 20px;
+	    left: 20px;
+	}
+	img{
+	    margin-top: 30px;
+	}
+	#activatedSosBtn{
+		color: #fff;
+	    font-size: 30px;
+	    border: 1px solid firebrick;
+	    width: 85px;
+	    border-radius: 50px;
+	    height: 85px;
+	    background: firebrick;	
+	    position: absolute;
+	    bottom: 20px;
+	    left: 20px;	
+	}
+	#settingBtn{
+        background: transparent;
+	    border: 1px solid lawngreen;
+	    height: 80px;
+	    width: 80px;
+	    border-radius: 50px;
+	    position: absolute;
+	    bottom: 20px;
+	    right: 20px;
+	}
+	#settingBtn :active{
+	    background: lawngreen;
+	    border: 1px solid lawngreen;
+	    height: 80px;
+	    width: 80px;
+	    border-radius: 50px;
+	    position: absolute;
+	    bottom: 0;
+	    right: 0;
+	    padding-top: 20px;
+	}
+	#settingsIcon{
+		font-size: 35px;
+	}
+	#transBtn{
+		width: 1px;
+		height: 1px;
+		background: transparent;
+		border: 1px solid transparent;
+	}
+	#activatedBtn{
+	    width: 100%;
+	    height: 150%;
+	    z-index: 1999999;
+	    background: #fff;
+	    border: 1px solid #fff;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	}
+	#screenFlashBtn{
+	    position: absolute;
+	    top: 80%;
+	    margin-left: 35%;
+	    background: transparent;
+	    border: 1px solid #fff;
+	    border-radius: 50px;
+	    height: 80px;
+	    width: 80px;
+	    font-size: 30px;
+	}
+}
